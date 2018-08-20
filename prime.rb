@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(num)
   if num < 0
-    num = num.abs
+    false
   end
   if num == 2
     return true
